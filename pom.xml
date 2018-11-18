@@ -73,8 +73,18 @@
 				<configuration>
 					<java>
 						<!-- <googleJavaFormat/> -->
-						<eclipse/>
+						<!-- eclipse/ -->
 					</java>
+					<formats>
+						<format>
+							<!-- Specify whether to use tabs or spaces for indentation -->
+							<indent>
+								<spaces>true</spaces>
+								<!-- Specify how many spaces are used to convert one tab and vice versa. Defaults to 4 -->
+								<spacesPerTab>4</spacesPerTab>
+							</indent>
+						</format>
+					</formats>
 				</configuration>
 			</plugin>
 		</plugins>
